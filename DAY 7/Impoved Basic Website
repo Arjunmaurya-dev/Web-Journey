@@ -1,0 +1,135 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <title>My First Website</title>
+<style> 
+    body{
+        background-color:grey;
+        font-size:20px;
+        margin:0px;
+    }
+    header:hover{
+        background-color:rgb(49, 4, 59);
+        color:white;
+        transform:scale(1.05);
+    }
+    
+
+    header{
+        background-color:black;
+        color:white;
+        padding:0.2px;
+        box-shadow: 5px 5px 24px rgb(74, 73, 73);
+        text-align:center;
+        transition:0.2s;
+    }
+    nav{
+        display:flex;
+        gap:55px;
+        border-radius:6px;
+        box-shadow:5px 5px 24px rgb(84, 84, 84);
+        padding:13px;
+        justify-content:center;
+        font-size:24px;
+    }
+    .box{
+        border-radius:6px;
+        box-shadow: 5px 5px 25px rgb(213, 208, 208);
+        padding:3px;
+        margin:  10px;
+    }
+    footer{
+        background-color:rgb(80, 80, 18);
+        border-radius:6px;
+        padding:3px;
+        text-align:center;
+        margin:10px;
+        box-shadow:0px 5px 25px rgb(54, 54, 3);
+    }
+
+    h2{
+        color:white;
+        padding:5px;
+    }
+    h3{
+        color:rgb(35, 35, 116);
+    }
+    .a{
+        border-radius: 6px;
+        box-shadow:0px 5px 25px rgb(87, 85, 85);
+        padding:10px;
+        margin:10px;
+
+    }
+    a:hover{
+        background-color:yellow;
+        color:rgb(22, 18, 18);
+        transform:translateY(-5px);
+
+    }
+    a{
+        background-color:blue;
+        border-radius:7px;
+        box-shadow: 0px 5px 23px rgb(22, 22, 143);
+        padding:8px;
+        color:white;
+        text-decoration:none;
+        transition:0.2s;
+    }
+    .a:hover{
+        transform:scale(1.01);
+    }
+    .a{
+        transition:0.2s;
+    }
+    header,.a,.box{
+        cursor:pointer;
+    }
+</style>
+</head>
+<body>
+
+<header>
+  <h1>MyWebsite</h1>
+  <p>Learn Web Development Step by Step</p>
+</header>
+
+<nav>
+  <a href="#">Home</a>
+  <a href="#">About</a>
+  <a href="#">Services</a>
+  <a href="#">Contact</a>
+</nav>
+
+<section class="box">
+  <h2>Welcome</h2>
+  <p>
+    I am learning Web Development and building real projects.
+  </p>
+</section>
+
+<section class="box">
+  <h2>Our Features</h2>
+
+  <div class="a">
+    <h3>Fast</h3>
+    <p>Website loads quickly</p>
+  </div>
+
+  <div class="a">
+    <h3>Responsive</h3>
+    <p>Works on mobile and laptop</p>
+  </div>
+
+  <div class="a">
+    <h3>Simple</h3>
+    <p>Easy to understand design</p>
+  </div>
+</section>
+
+<footer >
+  <p>© 2026 Arjun Maurya</p>
+</footer>
+
+</body>
+</html>
