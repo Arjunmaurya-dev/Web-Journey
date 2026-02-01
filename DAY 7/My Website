@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <title>My First Website</title>
+</head>
+<body>
+
+<header>
+  <h1>MyWebsite</h1>
+  <p>Learn Web Development Step by Step</p>
+</header>
+
+<nav>
+  <a href="#">Home</a>
+  <a href="#">About</a>
+  <a href="#">Services</a>
+  <a href="#">Contact</a>
+</nav>
+
+<section>
+  <h2>Welcome</h2>
+  <p>
+    I am learning Web Development and building real projects.
+  </p>
+</section>
+
+<section>
+  <h2>Our Features</h2>
+
+  <div>
+    <h3>Fast</h3>
+    <p>Website loads quickly</p>
+  </div>
+
+  <div>
+    <h3>Responsive</h3>
+    <p>Works on mobile and laptop</p>
+  </div>
+
+  <div>
+    <h3>Simple</h3>
+    <p>Easy to understand design</p>
+  </div>
+</section>
+
+<footer>
+  <p>© 2026 Arjun Maurya</p>
+</footer>
+
+</body>
+</html>
