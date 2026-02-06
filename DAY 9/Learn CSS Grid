@@ -1,0 +1,115 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title> Web Development</title>
+
+    <style>
+        h1{
+            font-size:35px;
+        }
+        body{
+            background-color:rgb(69, 67, 67);
+            margin:0px;
+            height:2000px;
+            cursor:pointer;
+        }
+        .hero{
+            background-color:black;
+            color:white;
+            text-align:center;
+            padding:9px;
+
+        }
+         button{
+            background-color:blue;
+            color:white;
+            padding:11px;
+            border-radius:9px;
+            transition:0.3s;
+            font-size:20px;
+            box-shadow:0px 5px 24px darkblue;
+            cursor:pointer;
+
+            position:fixed;
+            bottom:70px;
+            right:50px;
+        }
+         button:hover{
+            background-color:green;
+            box-shadow:0px 4px 24px darkgreen;
+            color:white;
+            transform:scale(1.02);
+        
+        }
+        .hero p{
+            font-size:20px;
+        }
+        .cards{
+            border-radius:8px;
+            box-shadow: 3px 5px 24px rgb(36, 35, 35);
+            margin:25px;
+            height:auto;
+            padding:40px;
+            display:grid;
+            grid-template-columns:repeat(auto-fit,minmax(300px,1fr));
+            grid-template-rows:200px 200px 200px;
+            justify-content:center;
+            gap:50px;
+        }
+
+        .card{
+            font-size:20px;
+            background-color:wheat;
+            text-align:center;
+            height:auto;
+            width:300px;
+            border-radius:8px;
+            box-shadow:0px 5px 24px rgb(26, 25, 25);
+            padding:10px;
+        }
+        
+        .card:hover{
+            background-color:rgb(78, 23, 129);
+            color:white;
+            transform:scale(1.05) translateY(-5px);
+        }
+
+</style>
+    </head>
+    <body>
+
+        <section class="hero">
+            <h1>LEARN WEB DEVELOPMENT </h1>
+            <p> Build Real World Projects Steps Wise Steps </p>
+        
+        </section>
+        
+        <section class="cards">
+
+            <div class="card">
+                <h2> Fast </h2>
+                <p> Website Load Quickly </p>
+
+            </div>
+
+            <div class="card">
+                <h2> Simple </h2>
+                <p> Easy to understand and Design</p>
+
+            </div>
+
+            <div class="card">
+                <h2> Responsive </h2>
+                <p> Works on Mobile and Laptops </p>
+            </div>
+            <div class="card"> 4</div>
+            <div class="card">5</div>
+            <div class="card">6</div>
+            <div class="card">7</div>
+            <div class="card">8</div>
+            <div class="card">9</div>
+        </section>
+        <button>Get Started</button>
+    </body>
+    </html>
+
