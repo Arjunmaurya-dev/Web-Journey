@@ -1,0 +1,99 @@
+<!DOCTYPE html>
+<html>
+<head>
+<title>Day 11 Position</title>
+
+<style>
+
+body{
+    background-color:grey;
+    height:2000px;
+    cursor:pointer;
+    margin:20px;
+}
+
+button{
+    background-color:blue;
+    color:white;
+    box-shadow:0px 5px 24px darkblue;
+    padding:8px;
+    border-radius:7px;
+    transform:0.3s;
+    margin:10px;
+    cursor:pointer;
+}
+button:hover{
+    background-color:green;
+    color:white;
+    transform:scale(1.02) translateY(-3px);
+    box-shadow:0px 5px 24px darkgreen;
+
+}
+section {
+    background-color:white;
+    padding:15px;
+    border-radius:7px;
+    box-shadow:0px 5px 24px rgb(74, 73, 73);
+    margin:10px;
+    display:grid;
+    width:400px;
+    font-size:17px;
+
+}
+input{
+    padding:10px;
+    border-radius:7px;
+    margin:15px;
+    
+}
+textarea{
+    padding:5px;
+    border-radius:7px ;
+    font-size:16px;
+    width:350px;
+    height:100px;
+}
+
+.box {
+    border-radius:7px;
+    box-shadow:0px 5px 22px rgb(62, 60, 60);
+    padding:15px;
+    margin:5px;
+}
+
+</style>
+</head>
+
+<body>
+
+<section class="form">
+<h2>Form</h2>
+<div class="box">
+<label > Name</label>
+<input type="text" placeholder="Enter Your Name ">
+</div>
+<div class="box">
+<label> Password</label>
+<input type="password"placeholder="Enter Password" >
+</div>
+<div class="box">
+<label> Email</label>
+<input type="email" placeholder=" Enter Your Email">
+</div>
+<div class="box">
+<label>Phone No
+</label>
+<input type="number" placeholder="Enter Mobile No">
+</div>
+<div class="box">
+<textarea placeholder="About"></textarea>
+</div>
+<button > SUBMIT</button>
+
+
+
+
+</section>
+
+</body>
+</html>
